@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "748600880807",
+    "firebase_url": "https://assigss.firebaseio.com",
+    "project_id": "assigss",
+    "storage_bucket": "assigss.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748600880807:android:0e2066476f8a1f03c17582",
+        "android_client_info": {
+          "package_name": "com.example.assigss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748600880807-6uuodbcofft4m4u7s7bt45fsdlqr33pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk0hZmUZPqeexuTWfSHBG-1TnbmxNm-QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748600880807-6uuodbcofft4m4u7s7bt45fsdlqr33pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

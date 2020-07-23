@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="Fragments.SignUpFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="15sp"
+        android:id="@+id/emailTV"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailET"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/emailTV"
+        android:hint="Enter your email"
+        android:textSize="15sp"
+        android:textColor="@android:color/darker_gray"
+        android:textColorHint="@android:color/darker_gray"
+        android:inputType="textEmailAddress"
+        android:maxLength="30"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="15sp"
+        android:id="@+id/passwordTV"
+        android:layout_below="@id/emailET"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp"
+        android:layout_below="@id/passwordTV"
+        android:inputType="textPassword"
+        android:hint="Enter the password"
+        android:maxLength="15"
+        />
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create User"
+        android:textColor="@android:color/black"
+        android:background="@android:color/darker_gray"
+        android:textSize="13sp"
+        android:padding="10dp"
+        android:layout_below="@id/passwordET"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        />
+    <ProgressBar
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:id="@+id/progressBarSignUp"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>
